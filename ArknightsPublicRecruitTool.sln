@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArknightsPublicRecruitTool.Android", "ArknightsPublicRecruitTool.Android\ArknightsPublicRecruitTool.Android.csproj", "{348F8388-6EB5-4F9A-B4BF-D1D8B0718634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArknightsPublicRecruitTool", "ArknightsPublicRecruitTool\ArknightsPublicRecruitTool.csproj", "{761D2A1B-4526-4C01-AA6F-E043AECEC93E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{348F8388-6EB5-4F9A-B4BF-D1D8B0718634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348F8388-6EB5-4F9A-B4BF-D1D8B0718634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348F8388-6EB5-4F9A-B4BF-D1D8B0718634}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{348F8388-6EB5-4F9A-B4BF-D1D8B0718634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348F8388-6EB5-4F9A-B4BF-D1D8B0718634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348F8388-6EB5-4F9A-B4BF-D1D8B0718634}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{761D2A1B-4526-4C01-AA6F-E043AECEC93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761D2A1B-4526-4C01-AA6F-E043AECEC93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761D2A1B-4526-4C01-AA6F-E043AECEC93E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{761D2A1B-4526-4C01-AA6F-E043AECEC93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761D2A1B-4526-4C01-AA6F-E043AECEC93E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761D2A1B-4526-4C01-AA6F-E043AECEC93E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA56597C-61BE-40E6-8316-3E67AC3BE66B}
+	EndGlobalSection
+EndGlobal

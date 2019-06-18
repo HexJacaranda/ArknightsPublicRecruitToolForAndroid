@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ArknightsPublicRecruitTool.MainPage">
+    <Grid x:Name="AppBase">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto">
+            </RowDefinition>
+            <RowDefinition Height="auto">
+            </RowDefinition>
+            <RowDefinition Height="auto">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <StackLayout x:Name="ButtonLay"
+                     Grid.Row="1" 
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="FillAndExpand"
+                     Orientation="Horizontal">
+            <Button Text="视图转换" 
+                    TextColor="White"
+                x:Name="ConvertButton" 
+                Grid.Row="1"
+                HeightRequest="35"
+                VerticalOptions="Center">
+            </Button>
+            <Button Text="清空标签"
+                    TextColor="White"
+                    x:Name="ClearButton"
+                    HeightRequest="35"
+                    VerticalOptions="Center">
+            </Button>
+        </StackLayout>
+        <TableView x:Name="Table" HasUnevenRows="True" Grid.Row="0"></TableView>
+        <ListView x:Name="ResultView" HasUnevenRows="True" Grid.Row="2"></ListView>
+    </Grid>
+
+</ContentPage>

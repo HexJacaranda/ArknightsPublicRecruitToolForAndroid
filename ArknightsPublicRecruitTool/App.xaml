@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ArknightsPublicRecruitTool.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="BackgroundColor">White</Color>
+            <Color x:Key="LowRank">#C0C0C0</Color>
+            <Color x:Key="RankFour">RoyalBlue</Color>
+            <Color x:Key="RankFive">#EEE8AA</Color>
+            <Color x:Key="RankSix">Pink</Color>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
